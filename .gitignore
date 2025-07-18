@@ -1,0 +1,9 @@
+#################
+# KiCad ignores
+#################
+
+*.bak
+*-backups/
+*.kicad_prl
+fp-*
+sym-lib-table
