@@ -1091,7 +1091,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_Optical:TSOP32S40F"
+		(symbol "Interface_Optical:TSOP348xx"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1107,7 +1107,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TSOP32S40F"
+			(property "Value" "TSOP348xx"
 				(at -10.16 -7.62 0)
 				(effects
 					(font
@@ -1125,7 +1125,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/82669/tsop32s40f.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/82489/tsop322.pdf"
 				(at 16.51 7.62 0)
 				(effects
 					(font
@@ -1161,7 +1161,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TSOP32S40F_0_0"
+			(symbol "TSOP348xx_0_0"
 				(arc
 					(start -10.287 -1.778)
 					(mid -11.0899 -0.1905)
@@ -1207,7 +1207,7 @@
 					)
 				)
 			)
-			(symbol "TSOP32S40F_0_1"
+			(symbol "TSOP348xx_0_1"
 				(polyline
 					(pts
 						(xy -8.763 0.381) (xy -9.652 1.27)
@@ -1458,7 +1458,7 @@
 					)
 				)
 			)
-			(symbol "TSOP32S40F_1_1"
+			(symbol "TSOP348xx_1_1"
 				(pin power_in line
 					(at 10.16 5.08 180)
 					(length 2.54)
@@ -1469,7 +1469,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1505,7 +1505,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8719,7 +8719,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_Optical:TSOP32S40F")
+		(lib_id "Interface_Optical:TSOP348xx")
 		(at 44.45 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8753,7 +8753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/82669/tsop32s40f.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/82489/tsop322.pdf"
 			(at 60.96 95.25 0)
 			(effects
 				(font
