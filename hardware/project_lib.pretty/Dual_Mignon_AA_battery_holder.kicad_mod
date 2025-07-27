@@ -1,0 +1,172 @@
+(footprint "Dual_Mignon_AA_battery_holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 15.475 -9.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f6af3018-7d97-4633-9b3c-c27421673e40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2x AA Battery"
+		(at 15.475 -7.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4cfd4990-5b4c-4f66-bc21-6e4f8e542fc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30255ee1-d911-492c-a6b6-a56794f2dd3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e2b37e9-a08d-4206-9ef2-65547fc3d041")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 32 58)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "c008e527-1c73-4318-ba3c-3c1b5311ba60")
+	)
+	(fp_text user "+"
+		(at 18.275 -1.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "195c67e1-b196-4c1c-b39a-41214f1cbdf9")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 9.675 -1.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "297dcc8c-7e01-4ed8-986b-0ebc2a052687")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 15.475 -6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ba1ff11a-02c1-4f8c-a1df-883217fd1e3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole roundrect
+		(at 7 29)
+		(size 1.905 1.27)
+		(drill 3.3)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "146e93d9-a868-4e13-b89a-4fa38e1c67ca")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 25 29)
+		(size 1.905 1.27)
+		(drill 3.3)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "03769ab6-f1d7-499d-bdf7-b344c5b4d7a4")
+	)
+	(pad "1" thru_hole roundrect
+		(at 25 -3)
+		(size 5 5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "05b6a010-81a9-48fb-aba4-70356f73bb75")
+	)
+	(pad "1" smd roundrect
+		(at 25 -3)
+		(size 5 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "342b4631-3efd-4ec3-9d05-c95e4302bbb7")
+	)
+	(pad "2" thru_hole roundrect
+		(at 7 -3)
+		(size 5 5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "da60d677-8c10-4af8-a9cc-03228c534f4c")
+	)
+	(pad "2" smd roundrect
+		(at 7 -3)
+		(size 5 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "bccb4181-7ca2-4776-9be0-d0d5e4edd5c8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/AABattery Holder.stp"
+		(offset
+			(xyz 32 -64.5 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
