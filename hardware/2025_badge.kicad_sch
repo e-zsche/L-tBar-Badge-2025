@@ -3783,7 +3783,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 73.66) (xy 232.41 73.66)
+			(xy 227.33 73.66) (xy 234.95 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3813,7 +3813,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 73.66) (xy 252.73 73.66)
+			(xy 254 73.66) (xy 255.27 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3983,7 +3983,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 74.93) (xy 252.73 73.66)
+			(xy 255.27 74.93) (xy 255.27 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4123,7 +4123,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 73.66) (xy 241.3 73.66)
+			(xy 242.57 73.66) (xy 243.84 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5989,7 +5989,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 246.38 73.66 0)
+		(at 248.92 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5998,7 +5998,7 @@
 		(fields_autoplaced yes)
 		(uuid "354f3e97-2060-461c-a860-63aa84292cb0")
 		(property "Reference" "SW3"
-			(at 246.38 66.04 0)
+			(at 248.92 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6006,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 246.38 68.58 0)
+			(at 248.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6014,7 +6014,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 246.38 68.58 0)
+			(at 248.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +6023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 68.58 0)
+			(at 248.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +6032,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 246.38 73.66 0)
+			(at 248.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +8102,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 252.73 74.93 0)
+		(at 255.27 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8110,7 +8110,7 @@
 		(dnp no)
 		(uuid "87a91074-5d44-4927-acd9-c7f980cdbb1d")
 		(property "Reference" "#PWR028"
-			(at 252.73 81.28 0)
+			(at 255.27 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +8119,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 252.73 78.74 0)
+			(at 255.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 74.93 0)
+			(at 255.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 74.93 0)
+			(at 255.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8145,7 +8145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 252.73 74.93 0)
+			(at 255.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +8448,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 73.66 270)
+		(at 238.76 73.66 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8457,15 +8457,15 @@
 		(dnp no)
 		(uuid "961136f3-e351-455f-a8e1-abc234b5c9ad")
 		(property "Reference" "R5"
-			(at 236.22 67.31 90)
+			(at 238.76 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 236.22 69.85 90)
+		(property "Value" "100R"
+			(at 238.76 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +8473,7 @@
 			)
 		)
 		(property "Footprint" "project_lib:SMD_R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 236.22 75.438 90)
+			(at 238.76 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,7 +8482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 73.66 0)
+			(at 238.76 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8491,7 +8491,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 73.66 0)
+			(at 238.76 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +9748,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "100R"
 			(at 236.22 33.02 90)
 			(effects
 				(font
